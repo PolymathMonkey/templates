@@ -3,8 +3,6 @@
 Org-mode capture template for structured threat hunt documentation.
 Queries run directly against Elasticsearch via org-babel.
  
-Background and methodology: [Threat Hunting like a Nerd](https://polymathmonkey.github.io/weblog/artifacts/threathuntinglikeanerd/)
- 
 > This workflow is documented in detail on the blog:
 > [Threat Hunting like a nerd](https://polymathmonkey.github.io/weblog/artifacts/threathuntinglikeanerd/)
  
