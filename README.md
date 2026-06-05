@@ -78,17 +78,3 @@ Requires TRAMP SSH access to siem1. Test with:
 M-x shell-command RET /ssh:siem1:hostname RET
 ```
  
-## Validating queries before publish
- 
-```bash
-./validate_hunt_template.sh <es_password>
-```
- 
-All queries must exit 0 before publishing a hunt as a blog post.
- 
-## Publishing to blog
- 
-1. Copy finished hunt content into `content-org/securityresearch.org` as a new heading
-2. Set status to `DONE`
-3. `C-c C-e H H` to export via ox-hugo
-4. Commit `content/securityresearch/<slug>.md`
